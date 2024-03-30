@@ -1,5 +1,6 @@
-numpy 
-joblib
-pandas
-sklearn
-PIL 
+import numpy as np
+from joblib import load
+import streamlit as st
+import pandas as pd
+from sklearn import preprocessing
+from PIL import Image
