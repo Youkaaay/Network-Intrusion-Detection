@@ -1,0 +1,6 @@
+numpy 
+joblib
+streamlit
+pandas
+sklearn
+PIL 
