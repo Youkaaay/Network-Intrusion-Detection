@@ -12,10 +12,8 @@ loaded_model = load('uk.joblib')
 def intrusion_prediction(input_data):
     predictions = []
 
-    # Reshape the input data for prediction
-    input_data_reshaped = input_data.values.reshape(-1, 1)
-
-    prediction = loaded_model.predict(input_data_reshaped)
+    
+    prediction = loaded_model.predict(input_data)
 
     for i, result in enumerate(prediction):
         if result == 0:
