@@ -6,7 +6,7 @@ from sklearn import preprocessing
 from PIL import Image
 
 # Loading the saved model
-loaded_model = load('ukay.joblib')
+loaded_model = load('ukay1.joblib')
 
 # Function for prediction
 def intrusion_prediction(input_data):
