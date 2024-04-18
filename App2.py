@@ -58,7 +58,7 @@ def main():
     )
 
     # Creating a box around the title
-    st.markdown('<div class="title-box"><h1 class="title">Network Intrusion Detection Web App</h1></div>', unsafe_allow_html=True)
+    st.markdown('<div class="title-box"><h1 class="title">Network Intrusion Detection Web Application</h1></div>', unsafe_allow_html=True)
     
 
     # Upload data file
